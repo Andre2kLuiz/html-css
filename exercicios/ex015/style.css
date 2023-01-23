@@ -1,0 +1,19 @@
+@charset "htf8";
+
+
+body {
+    background-color: lightsteelblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+h1 {
+    color: darkblue;
+    background-color: darkgrey;
+}
+h2 {
+    color: darkgreen;
+}
+p {
+    text-align: justify;
+}
+
