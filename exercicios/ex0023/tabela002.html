@@ -13,6 +13,7 @@
         table {
             width: 500px;
             border-collapse: collapse;
+            position: relative;
         }
 
         caption {
@@ -33,8 +34,15 @@
         }
 
         thead, tfoot {
-            background-color: gray;
+            background-color: rgb(70, 69, 69);
             color: white;
+        }
+
+        thead > tr > th {
+            position: sticky;
+            top: -1px;
+            background-color:rgb(70, 69, 69) ;
+
         }
 
         td.numero {
